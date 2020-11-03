@@ -1,0 +1,164 @@
+.hero-container{
+    width: 100%;
+    position: relative;
+}
+
+.hero-container .new-cookies-button{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:38%;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+    width: 26vw;
+    height: 4vw;
+    background-color: #e497aa;
+    border-radius: 8px;
+    color: white;
+    outline: none;
+    border:none;
+    font-size: 16px;
+    font-family: "Nunito Black";
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.hero-container .new-cookies-button:hover{
+    background-color: #A04966;
+}
+.hero-container .hero-section {
+    width: 100%;
+}
+
+.offer-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-title{
+    color: #A04966;
+    font-size: 35px;
+    font-family: "Nunito ExtraBold";
+    text-align: center;
+    padding: 2rem 0rem 0.5rem 0rem;
+}
+
+.gallery-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gallery-content{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, [col-start] fit-content(350px) [col-end]);
+    row-gap:20px;
+    column-gap: 40px;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    place-content: center;
+    position: relative;
+  }
+  .gallery-image{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 8px;
+    pointer-events: auto;
+  }
+
+  .image{
+    position: relative;
+    display: inline-block;
+  }
+  .hoverDiv{
+    background-color: rgba(255, 255, 255, 0.705);
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    display: none;
+  }
+  .hoverIcon {
+    margin: auto;
+    position: absolute;
+     top: 0; left: 0; bottom: 0; right: 0;
+      width: 64px;
+      height: 64px;
+      background-color: brown;
+      border-radius: 8px;
+      color: white;
+      font-size: 38px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+  }
+  .about-section{
+      background-color: #F8E3E8;
+    display: flex;
+  }
+.right-text{
+    margin: 60px 30px 10px 30px;
+}
+  .about-image{
+      height: 300px;
+      object-fit: contain;
+      border:14px solid white;
+      margin: 20px 20px 20px 100px;
+  }
+  .about-me-sign{
+      margin: 30px;
+    text-align: end;
+    font-family: "Nunito Regular";
+    font-weight: bold;
+  }
+
+  .right {
+    grid-area: right;
+  }
+  .left {
+    grid-area: left;
+  }
+
+  .offer-content{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .offer-box{
+      width: 280px;
+      height: 420px;
+      background-color: #F0F0F0;
+      border-radius: 8px;
+      margin: 60px 30px 30px 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: all .2s ease-in-out;
+  }
+  .offer-box:hover{
+    transform: scale(1.1);
+  }
+
+  .offer-image{
+      width: 100%;
+      height: 340px;
+      border-radius: 8px 8px 0px 0px;
+  }
+  .offer-title-image{
+      color: #282828;
+      font-family: "Nunito Black";
+      text-transform: uppercase;
+      font-size: 20px;
+      text-align: center;
+      margin-top: 15px;
+  }
