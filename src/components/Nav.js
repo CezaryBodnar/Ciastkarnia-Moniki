@@ -36,7 +36,7 @@ function Nav() {
                     </HashLink>
                 </ul>
             </nav>
-            <div className="nav-hidden" style={{ opacity: openMenu ? '1' : '0' }}>
+            <div className="nav-hidden" style={{ display: openMenu ? 'block' : 'none' }}>
                 <ul className="active">
                     <HashLink to="/#offer" onClick={() => setOpenMenu(false)}>
                         <li>Oferta</li>
