@@ -20,7 +20,8 @@
     outline: none;
     border:none;
     font-size: 16px;
-    font-family: "Nunito Black";
+    font-family: "Nunito";
+    font-weight: 900;
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -40,7 +41,8 @@
 .section-title{
     color: #A04966;
     font-size: 35px;
-    font-family: "Nunito ExtraBold";
+    font-family: "Nunito";
+    font-weight: 800;
     text-align: center;
     padding: 2rem 0rem 0.5rem 0rem;
 }
@@ -117,7 +119,7 @@
   .about-me-sign{
       margin: 30px;
     text-align: end;
-    font-family: "Nunito Regular";
+    font-family: "Nunito";
     font-weight: bold;
   }
 
@@ -156,7 +158,8 @@
   }
   .offer-title-image{
       color: #282828;
-      font-family: "Nunito Black";
+      font-family: "Nunito";
+      font-weight: 900;
       text-transform: uppercase;
       font-size: 20px;
       text-align: center;

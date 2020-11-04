@@ -5,7 +5,7 @@
 }
 .pricelist-text{
     margin: 20px 30px 0px 30px;
-    font-family: "Nunito Regular";
+    font-family: "Nunito";
 }
 .prices{
     display: flex;
@@ -15,14 +15,16 @@
 .price-item{
     color: #A04966;
     font-size: 28px;
-    font-family: "Nunito ExtraBold";
+    font-family: "Nunito";
+    font-weight:800;
     text-align: center;
     padding: 0px 30px 0px 30px;
     cursor: pointer;
 }
 
 .pricelist-bold{
-    font-family: "Nunito ExtraBold";
+    font-family: "Nunito";
+    font-weight:800;
     font-size: 20px;
     margin: 20px 0px 0px 0px;
 }

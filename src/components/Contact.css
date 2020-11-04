@@ -1,139 +1,154 @@
-.contact-container{
-    background-color: #ECBFCA;
-    color: white;
-    padding-bottom: 50px;
+.contact-container {
+	background-color: #ECBFCA;
+	color: white;
+	padding-bottom: 50px;
 }
 
-.contact-title{
-    color: white;
-    font-size: 30px;
-    font-family: "Nunito ExtraBold";
-    text-align: center;
-    padding: 2rem 0rem 0.5rem 0rem;
+.contact-title {
+	color: white;
+	font-size: 30px;
+	font-family: "Nunito";
+	font-weight: 800;
+	text-align: center;
+	padding: 2rem 0rem 0.5rem 0rem;
 }
 
-.contact-content{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-left: 50px;
-    padding-right: 50px;
-    grid-column-gap: 50px;
-    grid-template-areas:
-    "contact-right-content contact-form";
-    padding-top: 50px;
-    padding-bottom: 30px;
-  }
-  .contact-name{
-    width: 100%;
-    height: 50px;
-    outline: none;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: none;
-    border-radius: 8px;
-    font-size: 18px;
-    font-family: "Nunito Medium";
-    color: rgb(14, 14, 14);
-  }
-  .contact-textarea{
-    width: 100%;
-    outline: none;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: none;
-    border-radius: 8px;
-    font-size: 18px;
-    font-family: "Nunito Medium";
-    color: rgb(14, 14, 14);
-  }
-  .contact-form{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .klauzula{
-    width: 100%;
-    font-size: 12px;
-  }
-  .sendBtn{
-    width: 100px;
-    height: 40px;
-    border-radius: 8px;
-    border:none;
-    color: white;
-    background-color: #A04966;
-    font-size: large;
-    text-transform: uppercase;
-    outline: none;
-    margin-top: 30px;
-    font-family: "Nunito Black";
-    cursor: pointer;
-    align-self: center;
-  }
-  .contact-right-content{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30%;
-  }
-  
-.title-bold{
-    font-size: 18px;
-    margin-top: 10px;
-    font-family: "Nunito ExtraBold";
-  }
+.contact-content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-left: 50px;
+	padding-right: 50px;
+	grid-column-gap: 50px;
+	grid-template-areas: "contact-right-content contact-form";
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
 
-.text-medium{
-    font-size: 18px;
-    font-family: "Nunito Medium";
-  }
+.contact-name {
+	width: 100%;
+	height: 50px;
+	outline: none;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 8px;
+	font-size: 18px;
+	font-family: "Nunito";
+	font-weight: 600;
+	color: rgb(14, 14, 14);
+}
+
+.contact-textarea {
+	width: 100%;
+	outline: none;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 8px;
+	font-size: 18px;
+	font-family: "Nunito";
+	font-weight: 600;
+	color: rgb(14, 14, 14);
+}
+
+.contact-form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.klauzula {
+	width: 100%;
+	font-size: 12px;
+}
+
+.sendBtn {
+	width: 100px;
+	height: 40px;
+	border-radius: 8px;
+	border: none;
+	color: white;
+	background-color: #A04966;
+	font-size: large;
+	text-transform: uppercase;
+	outline: none;
+	margin-top: 30px;
+	font-family: "Nunito";
+	font-weight: 900;
+	cursor: pointer;
+	align-self: center;
+}
+
+.contact-right-content {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 30%;
+}
+
+.title-bold {
+	font-size: 18px;
+	margin-top: 10px;
+	font-family: "Nunito";
+	font-weight: 800;
+}
+
+.text-medium {
+	font-size: 18px;
+	font-family: "Nunito";
+	font-weight: 600;
+}
+
 label {
-    font-family: "Nunito SemiBold";
-    align-self: flex-start;
+	font-family: "Nunito";
+	font-weight: 600;
+	align-self: flex-start;
 }
 
 .upload-ref::-webkit-file-upload-button {
-    width: 120px;
-    height: 30px;
-    background-color: white;
-    border-radius: 8px;
-    border: none;
-    color: #454545;
-    outline: none;
-    cursor: pointer;
-    font-size: 13px;
-    font-family: "Nunito Black";
-    text-transform: uppercase;
-    margin-bottom: 20px;
-  }
-  .contact-icon{
-      width: 64px;
-      height: 64px;
-      background-color: #A04966;
-      border-radius: 8px;
-      outline: none;
-    font-size: 36px;
-
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-left: auto;
-      margin-right: auto;
-  }
-
-  .email-label {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-    
-  }
-  .phone-label {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+	width: 120px;
+	height: 30px;
+	background-color: white;
+	border-radius: 8px;
+	border: none;
+	color: #454545;
+	outline: none;
+	cursor: pointer;
+	font-size: 13px;
+	font-family: "Nunito";
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-bottom: 20px;
 }
+
+.contact-icon {
+	width: 64px;
+	height: 64px;
+	background-color: #A04966;
+	border-radius: 8px;
+	outline: none;
+	font-size: 36px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.email-label {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.phone-label {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
 .adress-label {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 }
