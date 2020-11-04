@@ -21,8 +21,7 @@ const Home = () => {
                 <h1 className="section-title">Oferta</h1>
                 <p className="offer-text"><b>Lukrowane ciasteczka</b> to moja pasja już od kilku ładnych lat. Już od małego tworzyłam lukrowane ciastka na różne święta czy okazje, co
 zaowocowało przyszłemu zainteresowaniu w sztuce zdobienia ciastek. Kunsztu zdobienia oraz pieczenia ciastek uczyłam się pod okiem mistrzów
-tego fachu na różnych szkoleniach oraz kursach ciastkarskich. Poznałam takie osobistości jak Magda Gessler, Maciej Kuroń, Gordon Ramsey i wiele
-innych znanych ciastkarzy. Moja oferta zawiera wszelkiej maści ciasteczka okolicznościowe od walentynek po wigilie. </p>
+tego fachu na różnych szkoleniach oraz kursach ciastkarskich. Moja oferta zawiera wszelkiej maści ciasteczka okolicznościowe od walentynek po wigilie. </p>
                 <br></br>
                 <p className="offer-text-bold">Serdecznie zapraszam do zapoznania się z ofertą! </p>
 
